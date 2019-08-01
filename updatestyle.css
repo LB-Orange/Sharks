@@ -1,0 +1,162 @@
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.a {
+  width: 100px;
+}
+.small{
+  float: left;
+  padding: 10px;
+  height: 300px;
+  width: 25%;
+}
+
+#big{
+  float: left;
+  padding: 10px;
+  height: 300px;
+  width: 45%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.marker{
+  font-size: 20px;
+}
+
+.blue{
+  font-size:25px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  border-right: 1px solid #bbb;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.active {
+  background-color: #4CAF50;
+}
+
+body{
+  font-family:monospace;
+  background-color:#00BFFF;
+}
+
+h4{
+  font-size: 20px;
+}
+
+h3{
+    border: 5px solid black;
+    padding: 15px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+h1{
+  font-size: 40px;
+  font-family:inherit;
+  font-variant: small-caps;
+  font-stretch: extra-expanded;
+}
+.cool{
+  font-size: 25px;
+}
+
+.skill{
+  font-size: 20px;
+}
+
+.shnack{
+  font-size: 20px;
+}
+
+#thicc{
+  font-size: 20px;
+  font-stretch: extra-condensed;
+}
+
+#bean{
+  font-size: 15px
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 10000px;
+  position: center;
+
+}
+
+/* Caption text */
+
+/* Number text (1/3 etc) */
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: green;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/*#fish{
+  color: red;
+}*/
+
+/*.blue {
+  color:blue;
+}*/
